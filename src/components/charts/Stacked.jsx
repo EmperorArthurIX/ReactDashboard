@@ -6,7 +6,7 @@ const Stacked = ({width, height}) => {
   return (
     <ChartComponent width={width}
                     height={height}
-                    id="charts"
+                    id="stack chart"
                     primaryXAxis={stackedPrimaryXAxis}
                     primaryYAxis={stackedPrimaryYAxis}
                     chartArea={{border: {width:0}}}
